@@ -1,65 +1,83 @@
 body {
-    font-family: "Arial", sans-serif;    
-    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
 }
-.block1 {
-    float: right;
-    font-size: 9pt;        
-    margin: 5px 5px; 
-    padding: 5px 5px;
-}
-li.first_list {        
+
+li {
     list-style-type: none;
-    display: inline; 
+}
+
+.first_block {
+    font-size: 9.5pt;
+    float: right;
+    margin: 4px;
+    padding: 4px;
+}
+
+.first_class_list {
+    display: inline-block;    
     margin: 0 5px;
 }
-li.second_list {
+
+.class_button_sign {
     background-color: #1E90FF;
-    padding: 10px 12px;
+    color: white;    
     border-radius: 5px;
-    color: #FFFFFF;
+    padding: 10px;
 }
-.block2 {
-    padding: 190px 0 70px 0;
+
+.second_block {
     text-align: center;
+    padding: 145px 0 0 0;    
 }
-#search_bar {
-    border-radius: 25px;
-    padding: 12px;
-    margin: 20px 0 30px 0;
-}    
-.submit_button {
-    font-family: "Arial", sans-serif;
-    font-size: 11pt;
-    margin: 0 4px 20px 4px; 
-    padding: 10px 12px;
-    border-style: none;
-    background-color: #E8E8E8;
+
+#search_form {
+    margin: 25px 0 30px 0;
+    border-radius: 25px;    
+    padding: 12px;    
+    border: 1px solid #D8D8D8;    
+}
+
+#search_form:hover{
+    border: 2px solid #D8D8D8;
+}
+
+.second_block_button {
+    margin: 0 4px 12px 4px;
+    padding: 10px;
+    background-color: white;
     border-radius: 5px;
+    border: 1px solid #D8D8D8;    
 }
+
+.second_block_button:hover {
+    border: 2px solid #D8D8D8;
+}
+
 #google_text {
-    font-size: 10pt;        
+    font-size: 10pt;
 }
-.block3 {
-    clear: both;
-    font-size: 11pt;
-    margin: 4px 4px; 
-    padding: 4px 4px;
-    background-color: #FDF5E6;
+
+.third_block {
+    margin: 130px 0 0 0; 
+    background-color: #f2f2f2;
+    padding: 1px 0 0 0;        
 }
-.block4 {
-    clear: both;
-    font-size: 9pt;          
+
+.first_footer {    
+    float: left;           
 }
-li.first_footer {
-    list-style-type: none;
-    display: inline; 
-    float: left;
-    margin: 0 5px; 
+
+.second_footer1 {
+    display: inline-block;
+    float: left;    
+    font-size: 9.5pt;    
+    padding: 10px;    
 }
-li.second_footer {
-    list-style-type: none;
-    display: inline; 
-    float: right;  
-    margin: 0 5px; 
+
+.second_footer2 {
+    display: inline-block;
+    float: right;    
+    font-size: 9.5pt;    
+    padding: 10px;       
 }
